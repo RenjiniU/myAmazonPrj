@@ -23,7 +23,7 @@ public class HelloWorld {
 
             webDriver.get("https://www.amazon.de");
             //entering data to the searcher
-            Thread.sleep(3000);
+            Thread.sleep(4000);
 
             System.out.println("Page title is: " + webDriver.getTitle());
             System.out.println("Page URL is: " + webDriver.getCurrentUrl());
